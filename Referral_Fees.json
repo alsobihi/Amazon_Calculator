@@ -1,7 +1,6 @@
 {
     "_reference": "https://sell.amazon.sa/en/pricing?9/9/2023",
     "_reference2": "https://sellercentral.amazon.sa/help/hub/reference/G200336920?ref_=revecalc",
-    
     "1": {
         "Category": "Apparel",
         "Referral_Fee_perentage": 15,
@@ -15,14 +14,11 @@
     "3": {
         "Category": "Baby",
         "Referral_Fee_perentage": 0,
-        "multi_perentage": 
-            {
-                "limit_price": 50,
-                "less":8,
-                "more":15
-
-            }
-        ,
+        "multi_perentage": {
+            "limit_price": 50,
+            "less": 8,
+            "more": 15
+        },
         "Referral_fee_minimum": 1
     },
     "4": {
@@ -48,27 +44,21 @@
     "8": {
         "Category": "Electronics Accessories",
         "Referral_Fee_perentage": 0,
-        "multi_perentage": 
-            {
-                "limit_price": 250,
-                "less": 13,
-                "more": 8
-
-            }
-        ,
+        "multi_perentage": {
+            "limit_price": 250,
+            "less": 13,
+            "more": 8
+        },
         "Referral_fee_minimum": 1
     },
     "9": {
         "Category": "Furniture",
         "Referral_Fee_perentage": 0,
-        "multi_perentage": 
-            {
-                "limit_price": 750,
-                "less": 15,
-                "more": 10
-
-            }
-        ,
+        "multi_perentage": {
+            "limit_price": 750,
+            "less": 15,
+            "more": 10
+        },
         "Referral_fee_minimum": 1
     },
     "10": {
@@ -79,27 +69,21 @@
     "11": {
         "Category": "Grocery",
         "Referral_Fee_perentage": 0,
-        "multi_perentage": 
-            {
-                "limit_price": 25,
-                "less": 3,
-                "more": 9
-
-            }
-        ,
+        "multi_perentage": {
+            "limit_price": 25,
+            "less": 3,
+            "more": 9
+        },
         "Referral_fee_minimum": 0
     },
     "12": {
         "Category": "Health & Personal Care",
         "Referral_Fee_perentage": 0,
-        "multi_perentage": 
-            {
-                "limit_price": 50,
-                "less": 8,
-                "more": 12
-
-            }
-        ,
+        "multi_perentage": {
+            "limit_price": 50,
+            "less": 8,
+            "more": 12
+        },
         "Referral_fee_minimum": 1
     },
     "13": {
@@ -110,14 +94,11 @@
     "14": {
         "Category": "Jewelry",
         "Referral_Fee_perentage": 0,
-        "multi_perentage": 
-            {
-                "limit_price": 1000,
-                "less": 15,
-                "more": 5
-
-            }
-        ,
+        "multi_perentage": {
+            "limit_price": 1000,
+            "less": 15,
+            "more": 5
+        },
         "Referral_fee_minimum": 1
     },
     "15": {
@@ -173,14 +154,11 @@
     "25": {
         "Category": "Personal care Appliances",
         "Referral_Fee_perentage": 0,
-        "multi_perentage": 
-            {
-                "limit_price": 50,
-                "less": 8,
-                "more": 11
-
-            }
-        ,
+        "multi_perentage": {
+            "limit_price": 50,
+            "less": 8,
+            "more": 11
+        },
         "Referral_fee_minimum": 1
     },
     "26": {
@@ -236,27 +214,21 @@
     "36": {
         "Category": "Watches",
         "Referral_Fee_perentage": 0,
-        "multi_perentage": 
-            {
-                "limit_price": 5000,
-                "less": 15,
-                "more": 5
-
-            }
-        ,
+        "multi_perentage": {
+            "limit_price": 5000,
+            "less": 15,
+            "more": 5
+        },
         "Referral_fee_minimum": 1
     },
     "37": {
         "Category": "Wireless",
         "Referral_Fee_perentage": 0,
-        "multi_perentage": 
-            {
-                "limit_price": 250,
-                "less": 13,
-                "more": 8
-
-            }
-        ,
+        "multi_perentage": {
+            "limit_price": 250,
+            "less": 13,
+            "more": 8
+        },
         "Referral_fee_minimum": 1
     },
     "38": {
@@ -264,6 +236,4 @@
         "Referral_Fee_perentage": 10,
         "Referral_fee_minimum": 1
     }
-
-
 }
