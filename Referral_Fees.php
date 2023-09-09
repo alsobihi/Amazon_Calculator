@@ -32,9 +32,9 @@ function Referral_Fees(float $Sale_Price = 100,  int $Category = 38) : float {
 
   
  
-   // return $Commission_fee;
+    return $Commission_fee;
 }
 
 
-echo Referral_Fees();
+//echo Referral_Fees();
 ?>
