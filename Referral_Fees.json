@@ -1,0 +1,269 @@
+{
+    "_reference": "https://sell.amazon.sa/en/pricing?9/9/2023",
+    "_reference2": "https://sellercentral.amazon.sa/help/hub/reference/G200336920?ref_=revecalc",
+    
+    "1": {
+        "Category": "Apparel",
+        "Referral_Fee_perentage": 15,
+        "Referral_fee_minimum": 1
+    },
+    "2": {
+        "Category": "Automotive",
+        "Referral_Fee_perentage": 10,
+        "Referral_fee_minimum": 1
+    },
+    "3": {
+        "Category": "Baby",
+        "Referral_Fee_perentage": 0,
+        "multi_perentage": 
+            {
+                "limit_price": 50,
+                "less":8,
+                "more":15
+
+            }
+        ,
+        "Referral_fee_minimum": 1
+    },
+    "4": {
+        "Category": "Beauty",
+        "Referral_Fee_perentage": 9,
+        "Referral_fee_minimum": 1
+    },
+    "5": {
+        "Category": "Books",
+        "Referral_Fee_perentage": 12,
+        "Referral_fee_minimum": 1
+    },
+    "6": {
+        "Category": "Camera",
+        "Referral_Fee_perentage": 8,
+        "Referral_fee_minimum": 1
+    },
+    "7": {
+        "Category": "Consumer Electronics",
+        "Referral_Fee_perentage": 5,
+        "Referral_fee_minimum": 1
+    },
+    "8": {
+        "Category": "Electronics Accessories",
+        "Referral_Fee_perentage": 0,
+        "multi_perentage": 
+            {
+                "limit_price": 250,
+                "less": 13,
+                "more": 8
+
+            }
+        ,
+        "Referral_fee_minimum": 1
+    },
+    "9": {
+        "Category": "Furniture",
+        "Referral_Fee_perentage": 0,
+        "multi_perentage": 
+            {
+                "limit_price": 750,
+                "less": 15,
+                "more": 10
+
+            }
+        ,
+        "Referral_fee_minimum": 1
+    },
+    "10": {
+        "Category": "Gift Cards",
+        "Referral_Fee_perentage": 10,
+        "Referral_fee_minimum": 1
+    },
+    "11": {
+        "Category": "Grocery",
+        "Referral_Fee_perentage": 0,
+        "multi_perentage": 
+            {
+                "limit_price": 25,
+                "less": 3,
+                "more": 9
+
+            }
+        ,
+        "Referral_fee_minimum": 0
+    },
+    "12": {
+        "Category": "Health & Personal Care",
+        "Referral_Fee_perentage": 0,
+        "multi_perentage": 
+            {
+                "limit_price": 50,
+                "less": 8,
+                "more": 12
+
+            }
+        ,
+        "Referral_fee_minimum": 1
+    },
+    "13": {
+        "Category": "Home",
+        "Referral_Fee_perentage": 11,
+        "Referral_fee_minimum": 1
+    },
+    "14": {
+        "Category": "Jewelry",
+        "Referral_Fee_perentage": 0,
+        "multi_perentage": 
+            {
+                "limit_price": 1000,
+                "less": 15,
+                "more": 5
+
+            }
+        ,
+        "Referral_fee_minimum": 1
+    },
+    "15": {
+        "Category": "Kitchen",
+        "Referral_Fee_perentage": 11,
+        "Referral_fee_minimum": 1
+    },
+    "16": {
+        "Category": "Luggage",
+        "Referral_Fee_perentage": 15,
+        "Referral_fee_minimum": 1
+    },
+    "17": {
+        "Category": "Major appliances",
+        "Referral_Fee_perentage": 6,
+        "Referral_fee_minimum": 1
+    },
+    "18": {
+        "Category": "Mobile Phones",
+        "Referral_Fee_perentage": 5,
+        "Referral_fee_minimum": 1
+    },
+    "19": {
+        "Category": "Music",
+        "Referral_Fee_perentage": 15,
+        "Referral_fee_minimum": 1
+    },
+    "20": {
+        "Category": "Music instruments",
+        "Referral_Fee_perentage": 15,
+        "Referral_fee_minimum": 1
+    },
+    "21": {
+        "Category": "Office products",
+        "Referral_Fee_perentage": 15,
+        "Referral_fee_minimum": 1
+    },
+    "22": {
+        "Category": "Outdoor",
+        "Referral_Fee_perentage": 11,
+        "Referral_fee_minimum": 1
+    },
+    "23": {
+        "Category": "PC store",
+        "Referral_Fee_perentage": 5,
+        "Referral_fee_minimum": 1
+    },
+    "24": {
+        "Category": "Perfumes",
+        "Referral_Fee_perentage": 15,
+        "Referral_fee_minimum": 1
+    },
+    "25": {
+        "Category": "Personal care Appliances",
+        "Referral_Fee_perentage": 0,
+        "multi_perentage": 
+            {
+                "limit_price": 50,
+                "less": 8,
+                "more": 11
+
+            }
+        ,
+        "Referral_fee_minimum": 1
+    },
+    "26": {
+        "Category": "Pet Products",
+        "Referral_Fee_perentage": 15,
+        "Referral_fee_minimum": 1
+    },
+    "27": {
+        "Category": "Shoes",
+        "Referral_Fee_perentage": 15,
+        "Referral_fee_minimum": 1
+    },
+    "28": {
+        "Category": "Small Appliances",
+        "Referral_Fee_perentage": 10,
+        "Referral_fee_minimum": 1
+    },
+    "29": {
+        "Category": "Sports",
+        "Referral_Fee_perentage": 10,
+        "Referral_fee_minimum": 1
+    },
+    "30": {
+        "Category": "Stamps collectibles",
+        "Referral_Fee_perentage": 10,
+        "Referral_fee_minimum": 1
+    },
+    "31": {
+        "Category": "Tools & Home Improvement",
+        "Referral_Fee_perentage": 12,
+        "Referral_fee_minimum": 1
+    },
+    "32": {
+        "Category": "Toys",
+        "Referral_Fee_perentage": 11,
+        "Referral_fee_minimum": 1
+    },
+    "33": {
+        "Category": "Video & DVD",
+        "Referral_Fee_perentage": 10,
+        "Referral_fee_minimum": 1
+    },
+    "34": {
+        "Category": "Video Game Consoles",
+        "Referral_Fee_perentage": 5,
+        "Referral_fee_minimum": 1
+    },
+    "35": {
+        "Category": "Video Games",
+        "Referral_Fee_perentage": 12,
+        "Referral_fee_minimum": 1
+    },
+    "36": {
+        "Category": "Watches",
+        "Referral_Fee_perentage": 0,
+        "multi_perentage": 
+            {
+                "limit_price": 5000,
+                "less": 15,
+                "more": 5
+
+            }
+        ,
+        "Referral_fee_minimum": 1
+    },
+    "37": {
+        "Category": "Wireless",
+        "Referral_Fee_perentage": 0,
+        "multi_perentage": 
+            {
+                "limit_price": 250,
+                "less": 13,
+                "more": 8
+
+            }
+        ,
+        "Referral_fee_minimum": 1
+    },
+    "38": {
+        "Category": "All Other Categories",
+        "Referral_Fee_perentage": 10,
+        "Referral_fee_minimum": 1
+    }
+
+
+}
