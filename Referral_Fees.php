@@ -8,6 +8,8 @@ function Referral_Fees(float $Sale_Price = 100,  int $Category = 38) : float {
     $data = file_get_contents($json_url);
     $data = json_decode($data, false);
 
+    if (empty($data->$Category)) {die(json_encode(array('error' => 'يجب تحديد الكاتلوج من القائمة ')));}
+
     $category_name = (string) $data->$Category->Category;
     $category_perentage =  (int)   $data->$Category->Referral_Fee_perentage;
     $category_minimum =    (int)   $data->$Category->Referral_fee_minimum;
