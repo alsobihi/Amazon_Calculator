@@ -43,17 +43,19 @@ function Easy_Ship(float $Sale_Price = 0, float $weighs = 0.25 , float $length =
 
 
 
-
+    
 
     // calculate  weighs
+
     if ($weighs > $max_weight && $weighs < $heavy_weight) { $type = false;} // weighs not standard_size
     elseif ($weighs <= $max_weight && $weighs <= $heavy_weight ) {$type = true;} // weighs not heavy
-    else{ return $shipping_cost = 0;  die;} // weighs not allowed
+    else{ die(json_encode(array('error' => 'الوزن أعلى من المسموح به')));} // weighs not allowed
+    if ($weighs <= 0){ die(json_encode(array('error' => 'يجب أن الوزن يكون أعلى من صفر')));}
 
 
     // calculate  dimensions
     if ($longest < $dimensions_longest &&  $median < $dimensions_median && $shortest < $dimensions_shortest) { if ($type == true) {$type = true;}} // dimensions standard_size 
-    elseif ($longest >= $heavy_Longest || $median >= $heavy_sides || $shortest >= $heavy_sides) { return $shipping_cost = 0; $type = false; die;} // dimensions heavy
+    elseif ($longest >= $heavy_Longest || $median >= $heavy_sides || $shortest >= $heavy_sides) { die(json_encode(array('error' => 'أبعاد المنتج أعلى من المسموح به')));} // dimensions heavy
     else{$type= false;} // dimensions oversize
 
  
@@ -111,7 +113,8 @@ function Easy_Ship(float $Sale_Price = 0, float $weighs = 0.25 , float $length =
         $cul_extra_kg = $ceil_weighs * $oversize_extra_fee; // price for extra KG
         $shipping_cost = $oversize_shipping_fee + $cul_extra_kg; // shipping_fee +  extra kg price
 
-    }else{$shipping_cost = 0; die;} // error
+    }else{ die(json_encode(array('error' => 'الوزن أعلى من المسموح به*')) );
+    } // error
 
 
 
