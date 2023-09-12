@@ -1,18 +1,20 @@
 {
-    "_reference": "https://sell.amazon.sa/en/pricing?9/9/2023",
-    "_reference2": "https://sellercentral.amazon.sa/help/hub/reference/G200336920?ref_=revecalc",
+
     "1": {
         "Category": "Apparel",
+        "Category_ar": "الملابس",
         "Referral_Fee_perentage": 15,
         "Referral_fee_minimum": 1
     },
     "2": {
         "Category": "Automotive",
+        "Category_ar": "السيارات",
         "Referral_Fee_perentage": 10,
         "Referral_fee_minimum": 1
     },
     "3": {
         "Category": "Baby",
+        "Category_ar": "منتجات الأطفال",
         "Referral_Fee_perentage": 0,
         "multi_perentage": {
             "limit_price": 50,
@@ -23,26 +25,31 @@
     },
     "4": {
         "Category": "Beauty",
+        "Category_ar": "الجمال",
         "Referral_Fee_perentage": 9,
         "Referral_fee_minimum": 1
     },
     "5": {
         "Category": "Books",
+        "Category_ar": "الكتب",
         "Referral_Fee_perentage": 12,
         "Referral_fee_minimum": 1
     },
     "6": {
         "Category": "Camera",
+        "Category_ar": "الكاميرا",
         "Referral_Fee_perentage": 8,
         "Referral_fee_minimum": 1
     },
     "7": {
         "Category": "Consumer Electronics",
+        "Category_ar": "إلكترونيات المستهلك",
         "Referral_Fee_perentage": 5,
         "Referral_fee_minimum": 1
     },
     "8": {
         "Category": "Electronics Accessories",
+        "Category_ar": "الإكسسوارات الإلكترونية",
         "Referral_Fee_perentage": 0,
         "multi_perentage": {
             "limit_price": 250,
@@ -53,6 +60,7 @@
     },
     "9": {
         "Category": "Furniture",
+        "Category_ar": "الأثاث",
         "Referral_Fee_perentage": 0,
         "multi_perentage": {
             "limit_price": 750,
@@ -63,11 +71,13 @@
     },
     "10": {
         "Category": "Gift Cards",
+        "Category_ar": "بطاقات الهدايا",
         "Referral_Fee_perentage": 10,
         "Referral_fee_minimum": 1
     },
     "11": {
         "Category": "Grocery",
+        "Category_ar": "البقالة",
         "Referral_Fee_perentage": 0,
         "multi_perentage": {
             "limit_price": 25,
@@ -78,6 +88,7 @@
     },
     "12": {
         "Category": "Health & Personal Care",
+        "Category_ar": "الصحة والعناية الشخصية",
         "Referral_Fee_perentage": 0,
         "multi_perentage": {
             "limit_price": 50,
@@ -88,11 +99,13 @@
     },
     "13": {
         "Category": "Home",
+        "Category_ar": "المنزل",
         "Referral_Fee_perentage": 11,
         "Referral_fee_minimum": 1
     },
     "14": {
         "Category": "Jewelry",
+        "Category_ar": "المجوهرات",
         "Referral_Fee_perentage": 0,
         "multi_perentage": {
             "limit_price": 1000,
@@ -103,56 +116,67 @@
     },
     "15": {
         "Category": "Kitchen",
+        "Category_ar": "المطبخ",
         "Referral_Fee_perentage": 11,
         "Referral_fee_minimum": 1
     },
     "16": {
         "Category": "Luggage",
+        "Category_ar": "الأمتعة",
         "Referral_Fee_perentage": 15,
         "Referral_fee_minimum": 1
     },
     "17": {
         "Category": "Major appliances",
+        "Category_ar": "الأجهزة المنزلية الرئيسية",
         "Referral_Fee_perentage": 6,
         "Referral_fee_minimum": 1
     },
     "18": {
         "Category": "Mobile Phones",
+        "Category_ar": "الهواتف المحمولة",
         "Referral_Fee_perentage": 5,
         "Referral_fee_minimum": 1
     },
     "19": {
         "Category": "Music",
+        "Category_ar": "الموسيقى",
         "Referral_Fee_perentage": 15,
         "Referral_fee_minimum": 1
     },
     "20": {
         "Category": "Music instruments",
+        "Category_ar": "الآلات الموسيقية",
         "Referral_Fee_perentage": 15,
         "Referral_fee_minimum": 1
     },
     "21": {
         "Category": "Office products",
+        "Category_ar": "المنتجات المكتبية",
         "Referral_Fee_perentage": 15,
         "Referral_fee_minimum": 1
     },
     "22": {
         "Category": "Outdoor",
+        "Category_ar": "منتجات الأنشطة الخارجية",
         "Referral_Fee_perentage": 11,
         "Referral_fee_minimum": 1
     },
     "23": {
         "Category": "PC store",
+        "Category_ar": "أجهزة الكمبيوتر الشخصية",
         "Referral_Fee_perentage": 5,
         "Referral_fee_minimum": 1
     },
     "24": {
         "Category": "Perfumes",
+        "Category_ar": "العطور",
         "Referral_Fee_perentage": 15,
         "Referral_fee_minimum": 1
     },
     "25": {
         "Category": "Personal care Appliances",
+        "Category_ar": "أجهزة العناية الشخصية",
         "Referral_Fee_perentage": 0,
         "multi_perentage": {
             "limit_price": 50,
@@ -163,56 +187,67 @@
     },
     "26": {
         "Category": "Pet Products",
+        "Category_ar": "مستلزمات الحيوانات الأليفة",
         "Referral_Fee_perentage": 15,
         "Referral_fee_minimum": 1
     },
     "27": {
         "Category": "Shoes",
+        "Category_ar": "الأحذية",
         "Referral_Fee_perentage": 15,
         "Referral_fee_minimum": 1
     },
     "28": {
         "Category": "Small Appliances",
+        "Category_ar": "الأجهزة الصغيرة",
         "Referral_Fee_perentage": 10,
         "Referral_fee_minimum": 1
     },
     "29": {
         "Category": "Sports",
+        "Category_ar": "الرياضة",
         "Referral_Fee_perentage": 10,
         "Referral_fee_minimum": 1
     },
     "30": {
         "Category": "Stamps collectibles",
+        "Category_ar": "مقتنيات الطوابع العتيقة",
         "Referral_Fee_perentage": 10,
         "Referral_fee_minimum": 1
     },
     "31": {
         "Category": "Tools & Home Improvement",
+        "Category_ar": "الأدوات ومعدات تطوير المنزل",
         "Referral_Fee_perentage": 12,
         "Referral_fee_minimum": 1
     },
     "32": {
         "Category": "Toys",
+        "Category_ar": "اللعب",
         "Referral_Fee_perentage": 11,
         "Referral_fee_minimum": 1
     },
     "33": {
         "Category": "Video & DVD",
+        "Category_ar": "الفيديو والدي في دي (DVD)",
         "Referral_Fee_perentage": 10,
         "Referral_fee_minimum": 1
     },
     "34": {
         "Category": "Video Game Consoles",
+        "Category_ar": "أجهزة التحكم في ألعاب الفيديو",
         "Referral_Fee_perentage": 5,
         "Referral_fee_minimum": 1
     },
     "35": {
         "Category": "Video Games",
+        "Category_ar": "ألعاب الفيديو",
         "Referral_Fee_perentage": 12,
         "Referral_fee_minimum": 1
     },
     "36": {
         "Category": "Watches",
+        "Category_ar": "الساعات",
         "Referral_Fee_perentage": 0,
         "multi_perentage": {
             "limit_price": 5000,
@@ -223,6 +258,7 @@
     },
     "37": {
         "Category": "Wireless",
+        "Category_ar": "الأجهزة اللاسلكية",
         "Referral_Fee_perentage": 0,
         "multi_perentage": {
             "limit_price": 250,
@@ -233,6 +269,7 @@
     },
     "38": {
         "Category": "All Other Categories",
+        "Category_ar": "جميع الفئات الأخرى",
         "Referral_Fee_perentage": 10,
         "Referral_fee_minimum": 1
     }
