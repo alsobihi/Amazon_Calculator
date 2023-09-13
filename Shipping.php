@@ -41,7 +41,7 @@ function Easy_Ship(float $Sale_Price = 0, float $weighs = 0.25 , float $length =
     $heavy_sides = (float) $data->heavy->sides; // json
     $heavy_grith = (float) $data->heavy->grith; // json
 
-
+    
 
     
 
@@ -107,12 +107,11 @@ function Easy_Ship(float $Sale_Price = 0, float $weighs = 0.25 , float $length =
         $Volumetric_Weight = ($length * $witdth * $height) / 5000 ; // Volumetric_Weight
         $weights_arr = array($weighs,$Volumetric_Weight ); // array Volumetric and Weight
         rsort($weights_arr); // sort array
-        $weights = $weights_arr[0]; // select bigger value
-        $weighs = $weighs - 1; //  Remove First 1KG
+        $weighs = $weights_arr[0] - 1; // select bigger value +  Remove First 1KG
         $ceil_weighs = ceil($weighs); // ceil weighs
         $cul_extra_kg = $ceil_weighs * $oversize_extra_fee; // price for extra KG
         $shipping_cost = $oversize_shipping_fee + $cul_extra_kg; // shipping_fee +  extra kg price
-
+       
     }else{ die(json_encode(array('error' => 'الوزن أعلى من المسموح به*')) );
     } // error
 
