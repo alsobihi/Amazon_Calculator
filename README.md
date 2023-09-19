@@ -13,7 +13,7 @@ Amazon Calculator For Sellers [Saudi Arabia] - [السعودية] حاسبة أ�
 
 
 
-## GIT Request
+## GET Request
 
 ```
 cul.php?cul=&Sale_Price=100&category=1&weighs=0.25&length=25&witdth=25&height=25&shipping_charge=12&vat=15
