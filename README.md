@@ -13,3 +13,41 @@ Amazon Calculator For Sellers [Saudi Arabia] - [السعودية] حاسبة أ�
 
 
 
+## GIT Request
+
+```
+cul.php?cul=&Sale_Price=100&category=1&weighs=0.25&length=25&witdth=25&height=25&shipping_charge=12&vat=15
+
+```
+
+- `cul` || `NULL`
+- `Sale_Price` || `سعر البيع` (Float)
+- `category` || `رقم القسم من 1 إلى 38` (int)
+- `weighs` || `وزن الشحنة`(Float)
+- `length` || `الطول`(Float)
+- `witdth` || `العرض`(Float)
+- `height` || `الأرتفاع`(Float)
+- `shipping_charge` || `رسوم التوصيل`(Float)
+- `vat` || `الضريبة المضافة`(Float)
+
+
+## Response
+
+```json
+{
+    "price": 100,
+    "final": 153.17,
+    "shipping_charge_price": 12,
+    "Referral_Fees": 16.8,
+    "Referral_Fees_vat": 2.52,
+    "Referral_price": 19.32,
+    "Easy_Ship": 19,
+    "Easy_Ship_vat": 2.85,
+    "Easy_Ship_price": 21.85,
+    "net": 70.83000000000001
+}
+```
+
+
+
+
