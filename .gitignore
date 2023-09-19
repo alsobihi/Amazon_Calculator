@@ -476,3 +476,9 @@ composer.lock
 index.php 
 /style/
 /style/*
+/learning/
+Privacy_Policy.html
+Terms_of_Service.html
+robots.txt
+weblink.php
+ads.txt
